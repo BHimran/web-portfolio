@@ -1,0 +1,28 @@
+body{
+    font-family:'poppins',sans-serif;
+}
+h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+.imran{
+    color:rgb(249, 214, 108)
+}
+.khan{
+    float: left;
+    width: 40%;
+    margin-left:5% ;
+    padding-left: 2%;
+}
+.khan img{
+    width:100% ;
+}
+.khan button{
+    background-color: burlywood;
+    font-size: 20px;
+    border-radius: 10px 10px 10px 10px;
+    border-style: solid;
+    border-color: aquamarine;
+    box-shadow: inset;
+    
+}
