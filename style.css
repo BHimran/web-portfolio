@@ -1,5 +1,6 @@
 body{
     font-family:'poppins',sans-serif;
+    margin: 0%;
 }
 h1{
     font-weight: 600;
@@ -17,12 +18,79 @@ h1{
 .khan img{
     width:100% ;
 }
-.khan button{
-    background-color: burlywood;
-    font-size: 20px;
-    border-radius: 10px 10px 10px 10px;
-    border-style: solid;
-    border-color: aquamarine;
-    box-shadow: inset;
+   
+.top-benner{
+     background-image: url("imges/top-banner.png");
+     background-repeat: no-repeat;
+     
+}
+section{
+    height: 500px;
+}
+.hier-button{
+    padding:10px 20px;
+    text-decoration: none;
+    background-image:linear-gradient(45deg,rgb(244, 184, 95),rgb(239, 125, 43));
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+.hier-button:hover{
+    background-image: linear-gradient(-45deg,rgb(249, 76, 76),rgb(230, 148, 148));
+}
+section.second-benner{
+    background-image: url("imges/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
     
+}
+.khan2{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.khan2 img{
+    width: 100%;
+    size:30px;
+}
+.Downlod-button{
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg,rgb(253, 111, 220),rgb(245, 73, 73));
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+.Downlod-button:hover{
+    background-image: linear-gradient(45deg,rgb(90, 246, 230),rgb(132, 68, 235));
+}
+.rd-area{
+    margin-top: 10%;
+    background-image: url(imges/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+   
+   
+}
+.rebel{
+    box-shadow:20px 20px 40px gray ;
+   height: 80%;
+   border-radius: 10px;
+   background-color: white;
+}
+#xy{
+    border-left: 7px solid red;
+    border-image: linear-gradient(180deg,rgb(249, 142, 19),rgb(209, 233, 121));
+    border-image-slice: 1;
+}
+
+#xyz{
+    border-left: 7px solid red;
+    border-image: linear-gradient(180deg,rgb(32, 20, 252),rgb(244, 70, 238));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    color-scheme: rgb(160, 160, 160);
 }
